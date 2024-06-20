@@ -2,14 +2,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
   }
-  
+
   .container {
-    max-width: 500px;
+    max-width: ;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
+    padding: 100px;
+    background-color: rgb(255, 255, 255, 255);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content:space-between;
   }
   
   h1 {
@@ -17,7 +18,7 @@ body {
   }
   
   form div {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   
   label {
@@ -29,7 +30,7 @@ body {
   input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
   }
   
@@ -44,10 +45,34 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #32ca39;
   }
   
   .error {
     color: red;
     font-size: 14px;
   }
+
+  body, html {
+    height: 100%;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  max-width: 550px;
+  margin: ;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-content: flex-end;
+}
+
+.content-box {
+    background-color: #f0f0f0;
+    padding: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
